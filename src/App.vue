@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <homePage></homePage>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import homePage from './Page/HomePage'
+import promoPage from './Page/PromoPage'
 export default {
   components:{
-    homePage
+    homePage,
+    promoPage
   },
   data () {
     return {

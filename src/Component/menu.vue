@@ -8,7 +8,7 @@
             <p>{{menu.detail}}</p>
             <span class="new-price">{{menu.newPrice}}$</span>
             <span class="old-price">{{menu.oldPrice}}$</span>
-            <span class="stock">{{menu.stock}}left</span>
+            <span class="stock">{{menu.stock}} left</span>
         </div>
     </div>
 </template>

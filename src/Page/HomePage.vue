@@ -23,6 +23,14 @@
                 :category="category">
                 </category>
             </ul>
+            <router-link
+            tag="h2"
+            to="/promopage">Today's promo</router-link>
+            <router-link
+            tag="span"
+            to="/promopage"
+            >See all
+            </router-link>
             <menuSlider></menuSlider>
         </main>
         <footerEl></footerEl>
@@ -69,10 +77,10 @@ $background:#F8F5F2;
         select{
             height: 2.25em;
             width: 14.875em;
-            background: $brand-primary;
-            opacity: 0.08;
+            background: rgba($color: $brand-primary, $alpha: 0.08);
             color:$text-secondary;
             border-radius: 2.125em;
+            outline: none;
         }
         .circle{
             width: 2em;
@@ -98,7 +106,9 @@ $background:#F8F5F2;
         }
     }
 
-    .greeting{
+    main{
+
+        .greeting{
         padding-top: 1.5em ;
         padding-bottom: 1.5rem ;
         h1{
@@ -120,6 +130,29 @@ $background:#F8F5F2;
     .categories{
         display: flex;
         justify-content: space-between;
+        padding-bottom: 2em;
     }
+    h2{
+        display: inline-block;
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+        color: $text-primary;
+        font-weight: 500;
+        padding-left:1em ;
+        cursor: pointer;
+        
+    }
+    h2 + span{
+        float: right;
+        vertical-align: middle;
+        line-height: 1.625em;
+        font-size: 0.875rem;
+        color: $brand-secondary;
+        padding-right: 1em;
+        cursor: pointer;
+    }
+
+    }
+    
  }
 </style>

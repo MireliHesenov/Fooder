@@ -31,6 +31,6 @@ export default {
     .menus{
         display:flex;
         overflow: scroll;
-        padding:4em 0;
+        padding:1em 0 4em;
     }
 </style>
