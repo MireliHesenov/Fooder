@@ -1,0 +1,452 @@
+{
+  "restaurants" : [
+
+  {
+      "restaurant_name" : "Burger King" ,
+      "restaurant_description" : "Burger King (BK) hamburgerli fast food restoranlarının Amerikan qlobal şəbəkəsidir",
+      "restaurant_address": "28 Mall",
+      "restaurant_rating": 4.5,
+      "restaurant_photo" : "https://burgerking.az/images/slider/3.jpg",
+      "restaurant_menu":[
+          {
+            "menu_name": "Pendirli ətli cütlük, 2 nəfərlik",
+            "menu_desc": "Pendirli Co 2 əd., orta kartof 2 əd., Coca-Cola 500 ml. 2 əd.",
+            "menu_price": 16.60,
+            "menu_photo": "https://hungry.az/bi/g_f_i/33428/286"
+          },
+          
+          {
+            "menu_name": "Pendirli toyuqlu cütlük, 2 nəfərlik",
+            "menu_desc": "Pendirli Meri 2 əd., orta kartof 2 əd., Coca-Cola 500 ml. 2 əd.",
+            "menu_price": 16.60,
+            "menu_photo": "https://hungry.az/bi/g_f_i/33427/286"
+          },
+          {
+            "menu_name": "Pendirli Mix cütlük, 2 nəfərlik",
+            "menu_desc": "Pendirli Co 1 əd.,Pendirli Meri 1 əd., orta kartof 2 əd., Coca-Cola 500 ml. 2 əd.",
+            "menu_price": 16.60,
+            "menu_photo": "https://hungry.az/bi/g_f_i/33426/286"
+          },
+          {
+            "menu_name": "Snek miks",
+            "menu_desc": "Naggetslər, soğan halqaları və qızılı King Frinin böyük porsiyası",
+            "menu_price": 9.90,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8085/286"
+          },
+         
+          {
+            "menu_name": "King Buket \"Böyük miks\"",
+            "menu_desc": "Qanadların, soğan halqalarının və qızılı King Fri kartoflarının böyük porsiyası",
+            "menu_price": 14.00,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5785/286"
+          },
+          {
+            "menu_name": "King Buket qanadları XXL",
+            "menu_desc": "29 ədəd. Xırçıldayan zərif qanadların böyük porsiyası",
+            "menu_price": 17.50,
+            "menu_photo": "https://hungry.az/bi/g_f_i/12382/286"
+          },
+          {
+            "menu_name": "Uşaq Naharı çiken burger ilə",
+            "menu_desc": "Çikenburger, fri kartofu, içki, oyuncaq",
+            "menu_price": 4.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5787/286"
+          },
+          {
+            "menu_name": "Uşaq naharı çizburger ilə",
+            "menu_desc": "Çizburger, fri kartofu, içki, oyuncaq",
+            "menu_price": 4.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5788/286"
+          },
+          {
+            "menu_name": "Uşaq naharı naggetslə",
+            "menu_desc": "Naggets, kartof fri, içki, oyuncaq",
+            "menu_price": 4.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8084/286"
+          },
+         
+          {
+            "menu_name": "Oyuncaq",
+            "menu_desc": "",
+            "menu_price": 4.00 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/6389/286"
+          },
+         
+          {
+            "menu_name": "Pendirli Meri",
+            "menu_desc": "Qrilldə hazırlanmış toyuq, Çedder pendiri və Parmezan pendiri,qızardılmış soğan,təzə tərəvəzlər,əvəz olunmaz “Sezar”-sousu uyğunluğu. Çoxlu-çoxlu pendir!",
+            "menu_price": 6.20 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/32627/286"
+          },
+          
+          {
+            "menu_name": "Pendirli Co",
+            "menu_desc": "100% odda hazırlanmış mal əti ilə səxavətli pendir Parmezan, Çedder pendiri, təzə pomidorlar və xırçıldayan xiyar ilə bənzərsiz Sezar və Pendirli sous. Üç qat pendir və qarğıdalı bulkası ilə zövq alın.",
+            "menu_price": 6.20 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/32626/286"
+          },
+          {
+            "menu_name": "Vopper",
+            "menu_desc": "Zərif küncütlü bulkanın arasında odda hazırlanmış çox ləzzətli mal əti üzərində xırçıldayan duzlu xiyar, pomidor, doğranmış təzə kahı, qatı mayonez və təzə soğan",
+            "menu_price": 4.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5792/286"
+          },
+          
+          {
+            "menu_name": "Big King",
+            "menu_desc": "Daha çox 100% mal əti. Daha çox pendir. Daha çox sous. İki məxsusi bifşteks və pendir dilimindən başqa tərkibində “King” məxsusi sousu, kahı, duzlu xiyar, təzə soğan dilimləri var - bütün bunlar üstü azca qızarmış küncütlü bulkanın arasındadır",
+            "menu_price": 3.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8228/286"
+          },
+          {
+            "menu_name": "Çizburger",
+            "menu_desc": "Çizburger seçməklə yanılmayacaqsınız: bu üstü azca qızarmış küncütlü bulkanın arasında azca əridilmiş pendir, xırçıldayan duzlu xiyar dilimləri, xardal, soğan və ketçupla odda hazırlanmış 100% mal ətindən məxsusi bifşteksdir",
+            "menu_price": 1.80 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8229/286"
+          },
+          {
+            "menu_name": "İkili çizburger",
+            "menu_desc": "Uzun qızardılmış küncütlü bulka arasında iki dilim mal ətindən odda hazırlanmış bifşteks üzərində bir az ərimiş iki pendir dilimi, xırçıldayan xiyar, soğan, xardal və ketçup ilə düzəldilmiş burger",
+            "menu_price": 3.75 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8230/286"
+          },
+          {
+            "menu_name": "Hamburger",
+            "menu_desc": "Üstü azca qızarmış küncütlü bulkanın arasında xırçıldayan duzlu xiyar dilimləri, soğan, xardal və ketçupla odda hazırlanmış 100% mal ətindən bifşteks",
+            "menu_price": 1.50,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8076/286"
+          },
+          {
+            "menu_name": "Vopper cunior",
+            "menu_desc": "Üzərinə küncüt səpilmiş yumşaq bulkanın arasında odda hazırlanmış 100% mal ətindən bifşteks, ləzzətli pomidor dilimləri, doğranmış təzə kahı, qatı mayonez, xırçıldayan xiyar və təzə soğan dilimləri",
+            "menu_price": 2.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8079/286"
+          },
+          {
+            "menu_name": "İkili Vopper",
+            "menu_desc": "Küncütlü zərif bulkanın arasında odda hazırlanmış 100% mal ətindən iki dadlı bifşteks, ləzzətli pomidor dilimləri, doğranmış təzə kahı, qatı mayonez, xırçıldayan xiyar və təzə soğan dilimləri",
+            "menu_price": 7.40 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5796/286"
+          },
+          {
+            "menu_name": "Üçlü Vopper",
+            "menu_desc": "Küncütlü zərif bulkanın arasında odda hazırlanmış 100% mal ətindən üç çox dadlı bifşteks, ləzzətli pomidor dilimləri, doğranmış təzə kahı, qatı mayonez, xırçıldayan xiyar və təzə soğan dilimləri",
+            "menu_price": 9.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5797/286"
+          },
+          {
+            "menu_name": "Long çizburger",
+            "menu_desc": "Uzun qızardılmış küncütlü bulka arasında iki dilim mal ətindən odda hazırlanmış bifşteks üzərində bir az ərimiş iki pendir dilimi, xırçıldayan xiyar, soğan, xardal və ketçup ilə düzəldilmiş burger",
+            "menu_price": 4.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5804/286"
+          },
+          {
+            "menu_name": "Steakhouse",
+            "menu_desc": "Üzərinə qarğıdalı qırıntıları səpilmiş havalı bulka arasında odda hazırlanmış 100% mal əti, Barbekyu sousu, mayonez, təzə kahı yarpaqları, pomidor və qızardılmış soğan ilə burger",
+            "menu_price": 6.20 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5801/286"
+          },
+          {
+            "menu_name": "Long çiken",
+            "menu_desc": "Uzun, üzərinə küncüt səpilmiş bulka arasında ləzzətli, unda azca qızardılmış toyuq üzərinə doğranmış yarpaq kahı və qatı mayonez uyğunluğudur",
+            "menu_price": 4.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5798/286"
+          },
+          {
+            "menu_name": "Çiken burger",
+            "menu_desc": "Üzərinə küncüt səpilmiş, qızardılmış bulka arasında incə, unda qızardılmış toyuq üzərində ketçup, kahı və mayonez olan bizim məxsusi burgerimiz",
+            "menu_price": 2.20 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5799/286"
+          },
+          {
+            "menu_name": "Çiken King",
+            "menu_desc": "İki dilim ləzzətli toyuq əti və iki dilim pendirdən əlavə, tərkibə \"Big King\" -sous, yarpaq kahı, duzlu xiyar, təzə soğan da daxildir. Və bütün bunlar qızardılmış,üzərinə küncüt səpilmiş bulka üzərində",
+            "menu_price": 3.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/6384/286"
+          },
+          {
+            "menu_name": "Qril çiken barbekyu",
+            "menu_desc": "Qızardılmış bulka üzərində qrilldə hazırlanmış zərif toyuq filesi, barbekyu sousu, yarpaq kahı, yetişmiş pomidor, qatı mayonez, qızardılmış soğan",
+            "menu_price": 5.80 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5802/286"
+          },
+          {
+            "menu_name": "Fiş King",
+            "menu_desc": "Yüngül ağ balıq əti, üzərinə mayonez, doğranmış yarpaq kahı və duzlu xiyar",
+            "menu_price": 2.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8082/286"
+          },
+          {
+            "menu_name": "Vopper Roll",
+            "menu_desc": "İki dilim 100% mal ətindən hazırlanmış bifşteks, təzə tərəvəzlər, çoxlu sous - indi lavaş arasında",
+            "menu_price": 4.60 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5803/286"
+          },
+          {
+            "menu_name": "Sezar Roll",
+            "menu_desc": "Buğda unundan lavaşda təzə pomidor, kahı, Parmesan pendiri və məxsusi Sezar sousu ilə qrildə hazırlanan ləzzətli toyuq kotleti",
+            "menu_price": 4.60 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5800/286"
+          },
+          {
+            "menu_name": "Fiş roll",
+            "menu_desc": "Ləzzətli ağ balıq ətindən hazırlanmış kotlet, məxsusi sous, pendir, duzlu xiyar və xırçıldayan kahı ilə hazırlanan roll",
+            "menu_price": 4.60 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8081/286"
+          },
+          {
+            "menu_name": "Xalapenyo",
+            "menu_desc": "",
+            "menu_price": 0.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8354/286"
+          },
+          {
+            "menu_name": "Qızardılmış soğan",
+            "menu_desc": "",
+            "menu_price": 0.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8352/286"
+          },
+          {
+            "menu_name": "1 əd. pendir",
+            "menu_desc": "",
+            "menu_price": 0.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8351/286"
+          },
+          {
+            "menu_name": "Ekstra burger kotleti",
+            "menu_desc": "",
+            "menu_price": 1.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5854/286"
+          },
+          {
+            "menu_name": "Ekstra vopper kotleti",
+            "menu_desc": "",
+            "menu_price": 2.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5855/286"
+          },
+          {
+            "menu_name": "Ekstra ikili pendir",
+            "menu_desc": "",
+            "menu_price": 1.00 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5856/286"
+          },
+          {
+            "menu_name": "Cunior King Fri",
+            "menu_desc": "İsti və təzə King Fri® kartofu – xırçıldayan qızılı rəngli dilimlər istənilən yeməyi çox gözəl tamamlayır",
+            "menu_price": 1.30 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5812/286"
+          },
+          {
+            "menu_name": "Kiçik King Fri",
+            "menu_desc": "İsti və təzə King Fri® kartofu – xırçıldayan qızılı rəngli dilimlər istənilən yeməyi çox gözəl tamamlayır",
+            "menu_price": 2.00 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5813/286"
+          },
+          {
+            "menu_name": "Orta King Fri",
+            "menu_desc": "İsti və təzə King Fri® kartofu – xırçıldayan qızılı rəngli dilimlər istənilən yeməyi çox gözəl tamamlayır",
+            "menu_price": 2.30,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5814/286"
+          },
+          {
+            "menu_name": "Böyük King Fri",
+            "menu_desc": "İsti və təzə King Fri® kartofu – xırçıldayan qızılı rəngli dilimlər istənilən yeməyi çox gözəl tamamlayır",
+            "menu_price": 2.60 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/6388/286"
+          },
+          {
+            "menu_name": "Soğan halqaları (4 əd.)",
+            "menu_desc": "Xırçıldayan qızardılmış soğan halqaları masaya isti-isti verilir",
+            "menu_price": 1.30 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5817/286"
+          },
+          {
+            "menu_name": "Soğan halqaları (6 əd.)",
+            "menu_desc": "Xırçıldayan qızardılmış soğan halqaları masaya isti-isti verilir",
+            "menu_price": 1.70 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5818/286"
+          },
+          {
+            "menu_name": "Soğan halqaları (9 əd.)",
+            "menu_desc": "Xırçıldayan qızardılmış soğan halqaları masaya isti-isti verilir",
+            "menu_price": 2.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5819/286"
+          },
+          {
+            "menu_name": "Çiken Fri (6 əd.)",
+            "menu_desc": "Xırtıldayan, qızıl qabığa sahib yeni bir toyuq ətindən qəlyanaltımız. Fri kartofuna bənzər ancaq toyuq ilə!",
+            "menu_price": 2.00 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/6387/286"
+          },
+          {
+            "menu_name": "Çiken Fri (9 əd.)",
+            "menu_desc": "Xırtıldayan, qızıl qabığa sahib yeni bir toyuq ətindən qəlyanaltımız. Fri kartofuna bənzər ancaq toyuq ilə!",
+            "menu_price": 2.80 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5811/286"
+          },
+          {
+            "menu_name": "King Go naggets",
+            "menu_desc": "",
+            "menu_price": 3.10 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/13841/286"
+          },
+          {
+            "menu_name": "King Go çiken fri",
+            "menu_desc": "",
+            "menu_price": 3.10,
+            "menu_photo": "https://hungry.az/bi/g_f_i/13839/286"
+          },
+          {
+            "menu_name": "Xalapenyo ilə pendirli medalyon (5 əd.)",
+            "menu_desc": "Xalapenyo ilə xırtıldayan zərif pendir dilimləri",
+            "menu_price": 2.50,
+            "menu_photo": "https://hungry.az/bi/g_f_i/12381/286"
+          },
+          {
+            "menu_name": "Xalapenyo ilə pendirli medalyon (7 əd.)",
+            "menu_desc": "Xalapenyo ilə xırtıldayan zərif pendir dilimləri",
+            "menu_price": 3.00 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/12380/286"
+          },
+          {
+            "menu_name": "King qanadları (3 əd.)",
+            "menu_desc": "Məxsusi reseptlə hazırlanan qanadlar yeməyə və ya pivəyə qəlyanaltı kimi əla seçimdir",
+            "menu_price": 2.70 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5808/286"
+          },
+          {
+            "menu_name": "King qanadları (5 əd.)",
+            "menu_desc": "Məxsusi reseptlə hazırlanan qanadlar yeməyə və ya pivəyə qəlyanaltı kimi əla seçimdir",
+            "menu_price": 4.00 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5809/286"
+          },
+          {
+            "menu_name": "King qanadları (8 əd.)",
+            "menu_desc": "Məxsusi reseptlə hazırlanan qanadlar yeməyə və ya pivəyə qəlyanaltı kimi əla seçimdir",
+            "menu_price": 6.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5810/286"
+          },
+          {
+            "menu_name": "Naggets (4 əd.)",
+            "menu_desc": "Naggetslərimiz yüngül unda qızardılmış xırçıldayan zərif toyuq ətindən hazırlanır",
+            "menu_price": 1.80 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5805/286"
+          },
+          {
+            "menu_name": "Naggets (9 əd.)",
+            "menu_desc": "Naggetslərimiz yüngül unda qızardılmış xırçıldayan zərif toyuq ətindən hazırlanır",
+            "menu_price": 3.20 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5807/286"
+          },
+          {
+            "menu_name": "Naggets (15 əd.)",
+            "menu_desc": "Naggetslərimiz yüngül unda qızardılmış xırçıldayan zərif toyuq ətindən hazırlanır",
+            "menu_price": 5.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8889/286"
+          },
+          {
+            "menu_name": "Turşa-şirin sous",
+            "menu_desc": "",
+            "menu_price": 0.55 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8357/286"
+          },
+          {
+            "menu_name": "Pendirli sous",
+            "menu_desc": "",
+            "menu_price": 0.55 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/8083/286"
+          },
+          {
+            "menu_name": "Ketçup",
+            "menu_desc": "",
+            "menu_price": 0.55 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5822/286"
+          },
+          {
+            "menu_name": "BBQ sousu",
+            "menu_desc": "",
+            "menu_price": 0.55 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5824/286"
+          },
+          {
+            "menu_name": "Sarımsaqlı Sous",
+            "menu_desc": "",
+            "menu_price": 0.55 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5827/286"
+          },
+          {
+            "menu_name": "Çiyələkli donat (ponçik)",
+            "menu_desc": "",
+            "menu_price": 1.50,
+            "menu_photo": "https://hungry.az/bi/g_f_i/12385/286"
+          },
+          {
+            "menu_name": "Şokoladlı donat (ponçik)",
+            "menu_desc": "",
+            "menu_price": 1.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/12384/286"
+          },
+          {
+            "menu_name": "Bananlı karamelli piroq",
+            "menu_desc": "Isti, xırtıldayan karamel-banan içlikli piroq",
+            "menu_price": 1.20 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/12383/286"
+          },
+          {
+            "menu_name": "Kiçik Koka-Kola",
+            "menu_desc": "500 ml.",
+            "menu_price": 1.90,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5841/286"
+          },
+          {
+            "menu_name": "Kiçik Fanta",
+            "menu_desc": "500 ml.",
+            "menu_price": 1.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5842/286"
+          },
+          {
+            "menu_name": "Kiçik Sprite",
+            "menu_desc": "500 ml.",
+            "menu_price": 1.90 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5843/286"
+          },
+          {
+            "menu_name": "Kappi mini",
+            "menu_desc": "200 ml.",
+            "menu_price": 1.00 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5846/286"
+          },
+          {
+            "menu_name": "Fyuz Ti",
+            "menu_desc": "500 ml.",
+            "menu_price": 1.50 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5847/286"
+          },
+          {
+            "menu_name": "Qazsız su",
+            "menu_desc": "",
+            "menu_price": 0.60 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5844/286"
+          },
+          {
+            "menu_name": "Qazlı su",
+            "menu_desc": "",
+            "menu_price": 0.60 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/5845/286"
+          },
+          {
+            "menu_name": "Sirop duzlu karamel",
+            "menu_desc": "",
+            "menu_price": 0.80 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/12439/286"
+          },
+          {
+            "menu_name": "Fransız vanil sirop",
+            "menu_desc": "",
+            "menu_price": 0.80 ,
+            "menu_photo": "https://hungry.az/bi/g_f_i/12438/286"
+          }
+         ]
+      }
+
+]}
