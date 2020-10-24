@@ -32,4 +32,8 @@ $background: #f8f5f2;
   box-sizing: border-box;
   font-size: 16px;
 }
+#app{
+  height: 100%;
+}
+
 </style>

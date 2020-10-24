@@ -1,39 +1,21 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-
+import createPersistedState from "vuex-persistedstate";
+import {favorites} from './modules/favorites'
+import {setOrder} from './modules/setOrder'
 Vue.use(Vuex);
 
+
 export const store = new Vuex.Store({
- state:{
-    totalOrderItem:0,
-    totalOrderAmount:0
- },
- getters:{
-     totalOrderItem(state){
-         return state.totalOrderItem
-     },
-     totalOrderAmount(state){
-         return state.totalOrderAmount
-     }
- },
- mutations:{
-     increment(state,price){
-         state.totalOrderItem ++;
-         state.totalOrderAmount +=price
-         console.log(state.totalOrderAmount);
-     },
-     decrement(state,price){
-        state.totalOrderItem --;
-        state.totalOrderAmount -=price
-    }
-},
-actions:{
-    addOrder({commit},price){
-        commit('increment',price)
+    modules:{
+        favorites,
+        setOrder
     },
-    removeOrder({commit},price){
-        commit('decrement',price)
-    }
-}
+
+    plugins:[createPersistedState({
+        paths:['favorites']
+    })]
+   
+
 
 })

@@ -17,7 +17,8 @@
       <meal 
       v-for="(meal,index) in restaurant.restaurant_menu"
       :key="index"
-      :meal="meal"></meal>
+      :meal="meal"
+      ></meal>
     </ul>
   </div>
 </template>

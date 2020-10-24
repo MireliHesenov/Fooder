@@ -10,10 +10,11 @@
         <p>{{meal.menu_name}}</p>
         <span class="new-price">{{meal.menu_price}} AZN</span>
       </div>
-      <div class="like-btn">
+      <div class="like-btn" @click="like(meal)">
         <i class="fas fa-heart"></i>
       </div>
       <div class="order-btn">
+        <slot></slot>
         <div class="add-btn" v-if="count==0" @click="increase">+ Add</div>
         <div class="order-btn-group" v-if="count > 0">
           <div class="minus-btn" @click="decrease">-</div>
@@ -34,7 +35,7 @@ export default {
     }
   },
   methods:{
-    
+    ...mapMutations(['like']),
     increase(){
       this.count ++ ;
       this.$store.dispatch("addOrder", this.$props.meal.menu_price)
@@ -89,6 +90,7 @@ $background: #f8f5f2;
     }
     .content {
       margin-left: 1.5em;
+      padding-right: 2em;
       p {
         color: $text-primary;
         font-size: 1em;
@@ -131,7 +133,14 @@ $background: #f8f5f2;
     position: absolute;
     bottom: 0;
     right: 0;
+    display: flex;
     cursor: pointer;
+    i{
+      margin-right: 1em;
+      align-self: center;
+      color: $brand-primary;
+      font-size:1.25em ;
+    }
     .add-btn {
       background: $brand-primary;
       color: #fff;

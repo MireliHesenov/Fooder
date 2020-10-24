@@ -6,7 +6,7 @@
       backgroundSize: 'cover',
     }"
   >
-    <div class="circle">
+    <div class="circle" @click="like(menu)">
       <i class="fas fa-heart"></i>
     </div>
     <div class="menu-detail">
@@ -18,8 +18,13 @@
   </div>
 </template>
 <script>
+import {mapMutations} from 'vuex'
 export default {
   props: ["menu"],
+
+  methods:{
+    ...mapMutations(['like'])
+  }
 };
 </script>
 
